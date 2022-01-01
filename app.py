@@ -8,6 +8,13 @@
 # print(new_patient)
  
 
-name = input("What's your name? ")
+# name = input("What's your name? ")
 
-print("Hello " + name + "!")
+# print("Hello " + name + "!")
+
+birth_year = input("Enter your birth year: ")
+
+
+age = 2020 - int(birth_year)
+
+print(age)
