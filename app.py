@@ -8,13 +8,15 @@
 # name = input("What's your name? ")
 # print("Hello " + name + "!")
 
+##Birthday Exercise 
 # birth_year = input("Enter your birth year: ")
 # age = 2020 - int(birth_year)
 # print(age)
 
-first = 10.1 
-second = float(20)
 
-sum = first + second 
+##Calculator Exercise 
+first = input("First Number: ") 
+second = input("Second Number: ")
 
+sum = float(first) + float(second) 
 print(sum)
