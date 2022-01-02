@@ -2,19 +2,19 @@
 # age = 20
 # first_name = 'John Smith'
 # new_patient = True 
-
 # print(first_name)
 # print(age)
 # print(new_patient)
- 
-
 # name = input("What's your name? ")
-
 # print("Hello " + name + "!")
 
-birth_year = input("Enter your birth year: ")
+# birth_year = input("Enter your birth year: ")
+# age = 2020 - int(birth_year)
+# print(age)
 
+first = 10.1 
+second = float(20)
 
-age = 2020 - int(birth_year)
+sum = first + second 
 
-print(age)
+print(sum)
