@@ -15,8 +15,31 @@
 
 
 ##Calculator Exercise 
-first = input("First Number: ") 
-second = input("Second Number: ")
+# first = input("First Number: ") 
+# second = input("Second Number: ")
+# sum = float(first) + float(second) 
+# sum = str(sum)
+# print("The sum is: " + sum)
 
-sum = float(first) + float(second) 
-print(sum)
+
+
+##String Methods 
+
+# course = 'Python for Beginners'
+# print(course.replace('for', '4'))
+# print('Python' in course) #returns a boolean letting you know if the string contains the substring 
+
+
+##Conditionals
+
+temperature = 50 
+
+if temperature > 30:
+    print("It is very hot!")
+    print("Drink water!")
+elif temperature > 20: 
+    print("It is a pleasant day.")
+else:
+    print("It might be chilly today!")
+
+print("Weather report complete.")
